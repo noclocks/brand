@@ -1,0 +1,20 @@
+repo_name: noclocks/template-generic-repo
+report_id: 8fa2505775e87fe08549367f0d9f0fd1
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-08T21:38:27+00:00'
+requested_by: jimbrig
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/noclocks/template-generic-repo
+  detection_source: Repo Metadata

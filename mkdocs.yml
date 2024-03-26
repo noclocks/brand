@@ -1,14 +1,173 @@
 site_name: No Clocks Brand
+site_author: No Clocks
+site_description: No Clocks Brand Documentation
+site_url: https://docs.noclocks.dev/brand
+
+repo_name: noclocks/brand
+repo_url: https://github.com/noclocks/brand
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+copyright: 'Copyright &copy; 2024 No Clocks, LLC'
+
+extra:
+  # analytics:
+    # provider: google
+    # property: !ENV: GOOGLE_ANALYTICS_TRACKING_ID
+  social:
+    - icon: fontawesome/solid/house
+      link: https://noclocks.dev
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/noclocks
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/noclocksdev
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/noclocks
+    # - icon: fontawesome/brands/slack
+    #   link: https://noclocks.slack.com
+    # - icon: fontawesome/brands/reddit
+    #   link: https://www.reddit.com/r/noclocksdev
+    # - icon: fontawesome/brands/youtube
+    #   link: https://www.youtube.com/channel/
+    # - icon: fontawesome/brands/instagram
+    #   link: https://www.instagram.com/noclocksdev
+    # - icon: fontawesome/brands/facebook
+    #   link: https://www.facebook.com/noclocksdev
 
 theme:
   name: material
-  # palette:
-  #   primary: teal
-  #   accent: teal
-  # font:
-  #   text: 'Roboto'
-  #   code: 'Roboto Mono'
+  language: en
+  # custom_dir: docs/overrides
+  palette:
+    # Dark Mode
+    - scheme: slate
+      primary: black
+      accent: cyan
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/brightness-4
+        name: Switch to Light Mode
+    # Light Mode
+    - scheme: default
+      primary: white
+      accent: cyan
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark Mode
+  logo: assets/img/logo-wordmark.svg
+  favicon: assets/img/favicon.png
+  # icon:
+  #   annotation: material/arrow-right-circle
+  features:
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.tracking
+    # - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - toc.integrate
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# extra_css:
+#   - assets/styles/color-schemes.css
+
+# extra_javascript:
+#   - assets/scripts/custom.js
+
+# markdown_extensions:
+#   - extra
+#   - tables
+#   - fenced_code
+#   - admonition
+#   - codehilite
+#   - footnotes
+
+
 
 plugins:
   - search
-  - mkdocstrings
+  - include-markdown:
+      trailing_newlines: false
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  # - social:
+  #     cards_layout_options:
+  #       background_color: "#006bba"
+  # - mermaid2
+  # - pdf-export
+  # - table-reader
+  # - autolinks
+  # - mkdocstrings
+  # - macros
+  # - monorepo
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home:
+    - index.md
+  - About:
+    - about.md
+  - Brand:
+      - brand/index.md
+      - Assets:
+        - brand/assets.md
+        - Brand Kit: brand/kit.md
+        - Colors: brand/colors.md
+        - Typography: brand/fonts.md
+        - Imagery: brand/imagery.md
+        - Logos: brand/logos.md
+        - Icons: brand/icons.md
+      - Strategy:
+        - brand/strategy.md
+        - Values: brand/values.md
+        - Identity: brand/identity.md
+        - Voice: brand/voice.md
+        - Reputation: brand/reputation.md
+        - Social Media: brand/social.md
+  - Guide:
+      - guide/index.md
+      - Brand Guidelines: guide/guide.md
+      - Taxonomy: guide/taxonomy.md
+      - Image Naming Conventions: guide/img-naming.md
+      - Image File Extensions: guide/img-file-exts.md
+      - Brand Asset Management: guide/mgmt.md
+  - Reference:
+      - ref/index.md
+      - Techstack: techstack.md
+      - Tools:
+        - ref/tools/index.md
+      - Glossary:
+        - ref/glossary/index.md
+        - ref/glossary/bam.md
+        - ref/glossary/dam.md
