@@ -19,6 +19,7 @@
 
 ## Features
 
+- Add mkdocs and enhance content ([49dcd6a](https://github.com/noclocks/brand/commit/49dcd6a625635dfccbb3bafe42bc12b69fdc79d1))  - (Jimmy Briggs)
 - Add mkdocs config ([f320830](https://github.com/noclocks/brand/commit/f3208302fbb97cc4d2862e000d154a10e6db5281))  - (Jimmy Briggs)
 - Add and update various logos and favicons ([6046b8e](https://github.com/noclocks/brand/commit/6046b8e83192e419cbbe59c285b98b1e6255db1a))  - (Jimmy Briggs)
 - Add various brand assets to src ([81a1abe](https://github.com/noclocks/brand/commit/81a1abe6340469253b914f57d6e850219153631e))  - (Jimmy Briggs)
