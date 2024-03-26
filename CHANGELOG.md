@@ -13,6 +13,7 @@
 
 ## Documentation
 
+- Enhance and add new docs ([5d05463](https://github.com/noclocks/brand/commit/5d054637b557eec264c0aae2a522266ab25cb15b))  - (Jimmy Briggs)
 - Add src README ([0d2a79c](https://github.com/noclocks/brand/commit/0d2a79c01fb5f1ba169dc419b2c3666a25a4016c))  - (Jimmy Briggs)
 - Initialize brand docs content ([7a7b2f6](https://github.com/noclocks/brand/commit/7a7b2f64d9735394f5e54e0015c09cad63f622cc))  - (Jimmy Briggs)
 - Update README ([1ab44aa](https://github.com/noclocks/brand/commit/1ab44aa0eee5a52966d1298f14bd911a4a49932e))  - (Jimmy Briggs)
