@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/020c12-e3e8e9-030f17-2e6e81-2a9bb6 */
+
+- Tailwind
+
+{ 'rich_black': { DEFAULT: '#020C12', 100: '#000204', 200: '#010507', 300: '#01070b', 400: '#020a0f', 500: '#020c12', 600: '#0c466a', 700: '#1680c3', 800: '#4fafeb', 900: '#a7d7f5' }, 'platinum': { DEFAULT: '#E3E8E9', 100: '#283233', 200: '#516367', 300: '#7c9398', 400: '#afbdc0', 500: '#e3e8e9', 600: '#e8eced', 700: '#eef1f2', 800: '#f4f6f6', 900: '#f9fafb' }, 'rich_black': { DEFAULT: '#030F17', 100: '#010305', 200: '#010609', 300: '#02090e', 400: '#020c12', 500: '#030f17', 600: '#0e476c', 700: '#197fc2', 800: '#53ade9', 900: '#a9d6f4' }, 'cerulean': { DEFAULT: '#2E6E81', 100: '#091619', 200: '#122b33', 300: '#1c414c', 400: '#255766', 500: '#2e6e81', 600: '#4097b1', 700: '#6bb3c9', 800: '#9ccddb', 900: '#cee6ed' }, 'blue_green': { DEFAULT: '#2A9BB6', 100: '#081f25', 200: '#113e49', 300: '#195d6e', 400: '#217c92', 500: '#2a9bb6', 600: '#45b8d5', 700: '#73cadf', 800: '#a2dbea', 900: '#d0edf4' } }
+
+- CSV
+
+020C12,E3E8E9,030F17,2E6E81,2A9BB6
+
+- With #
+
+#020C12, #E3E8E9, #030F17, #2E6E81, #2A9BB6
+
+- Array
+
+["020C12","E3E8E9","030F17","2E6E81","2A9BB6"]
+
+- Object
+
+{"Rich black":"020C12","Platinum":"E3E8E9","Rich black 2":"030F17","Cerulean":"2E6E81","Blue Green":"2A9BB6"}
+
+- Extended Array
+
+[{"name":"Rich black","hex":"020C12","rgb":[2,12,18],"cmyk":[89,33,0,93],"hsb":[203,89,7],"hsl":[203,80,4],"lab":[3,-2,-4]},{"name":"Platinum","hex":"E3E8E9","rgb":[227,232,233],"cmyk":[3,0,0,9],"hsb":[190,3,91],"hsl":[190,12,90],"lab":[92,-1,-1]},{"name":"Rich black","hex":"030F17","rgb":[3,15,23],"cmyk":[87,35,0,91],"hsb":[204,87,9],"hsl":[204,77,5],"lab":[4,-2,-6]},{"name":"Cerulean","hex":"2E6E81","rgb":[46,110,129],"cmyk":[64,15,0,49],"hsb":[194,64,51],"hsl":[194,47,34],"lab":[43,-14,-17]},{"name":"Blue Green","hex":"2A9BB6","rgb":[42,155,182],"cmyk":[77,15,0,29],"hsb":[192,77,71],"hsl":[192,63,44],"lab":[59,-22,-23]}]
+
+- XML
+
+<palette>
+  <color name="Rich black" hex="020C12" r="2" g="12" b="18" />
+  <color name="Platinum" hex="E3E8E9" r="227" g="232" b="233" />
+  <color name="Rich black" hex="030F17" r="3" g="15" b="23" />
+  <color name="Cerulean" hex="2E6E81" r="46" g="110" b="129" />
+  <color name="Blue Green" hex="2A9BB6" r="42" g="155" b="182" />
+</palette>
