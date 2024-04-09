@@ -21,6 +21,7 @@
 
 ## Features
 
+- Update images ([85396be](https://github.com/noclocks/brand/commit/85396be3d5b52c2e74be154067380abc289ab052))  - (Jimmy Briggs)
 - Add and rename various new brand assets ([0a5b544](https://github.com/noclocks/brand/commit/0a5b54491213f8e201a86159353048cca09288b4))  - (Jimmy Briggs)
 - Add mkdocs and enhance content ([49dcd6a](https://github.com/noclocks/brand/commit/49dcd6a625635dfccbb3bafe42bc12b69fdc79d1))  - (Jimmy Briggs)
 - Add mkdocs config ([f320830](https://github.com/noclocks/brand/commit/f3208302fbb97cc4d2862e000d154a10e6db5281))  - (Jimmy Briggs)
