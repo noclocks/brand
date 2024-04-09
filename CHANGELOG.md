@@ -13,6 +13,7 @@
 
 ## Documentation
 
+- Added README.md ([e097534](https://github.com/noclocks/brand/commit/e097534d1dda38329d230316ac46061a38ad82ac))  - (Jimmy Briggs)
 - Update docs with guides and reference ([358bc34](https://github.com/noclocks/brand/commit/358bc340f98189869b8b63bb706242664e3717c2))  - (Jimmy Briggs)
 - Enhance and add new docs ([5d05463](https://github.com/noclocks/brand/commit/5d054637b557eec264c0aae2a522266ab25cb15b))  - (Jimmy Briggs)
 - Add src README ([0d2a79c](https://github.com/noclocks/brand/commit/0d2a79c01fb5f1ba169dc419b2c3666a25a4016c))  - (Jimmy Briggs)
@@ -21,6 +22,7 @@
 
 ## Features
 
+- Add screenshots ([d429a01](https://github.com/noclocks/brand/commit/d429a019daa9d757dab06021fcc8b566c0984079))  - (Jimmy Briggs)
 - Update images ([85396be](https://github.com/noclocks/brand/commit/85396be3d5b52c2e74be154067380abc289ab052))  - (Jimmy Briggs)
 - Add and rename various new brand assets ([0a5b544](https://github.com/noclocks/brand/commit/0a5b54491213f8e201a86159353048cca09288b4))  - (Jimmy Briggs)
 - Add mkdocs and enhance content ([49dcd6a](https://github.com/noclocks/brand/commit/49dcd6a625635dfccbb3bafe42bc12b69fdc79d1))  - (Jimmy Briggs)
