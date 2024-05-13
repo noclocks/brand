@@ -8,6 +8,7 @@
 
 ## Configuration
 
+- Attempt to fix PostScript assignment in gitattributes ([1634d4e](https://github.com/noclocks/brand/commit/1634d4e778febfe1abdd123f6e5c4864d1db5e23))  - (Jimmy Briggs)
 - Ignore temp folders ([eae188f](https://github.com/noclocks/brand/commit/eae188f5d6b2c88a2ffa959e4e93970993973f4f))  - (Jimmy Briggs)
 - Remove devcontainer ([bf61f46](https://github.com/noclocks/brand/commit/bf61f466483a6cf77190df673836aa2e637c0d41))  - (Jimmy Briggs)
 - Add .gitignore ([98ccac9](https://github.com/noclocks/brand/commit/98ccac93b0f8b7d58b3e7f8d813ed2cce93d8244))  - (Jimmy Briggs)
