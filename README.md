@@ -2,10 +2,12 @@
   <img src="src/logo/badge/png/noclocks-badge-circle-dark-transparent-500x500.png" width="15%" height="15%">
 </p>
 
-# No Clocks Brand Guide
+# No Clocks Brand
 
 > [!NOTE]
 > This repository is still a *work in progress*.
+
+https://www.jsdelivr.com/package/gh/noclocks/brand
 
 ## Table of Contents
 
