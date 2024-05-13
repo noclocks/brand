@@ -46,6 +46,8 @@
 # use the following line instead.
 # *.svg    binary
 *.eps      binary
+*.eps      linguist-vendored
+
 
 # Scripts
 *.bash     text eol=lf
@@ -83,8 +85,9 @@
 .gitignore     export-ignore
 .gitkeep       export-ignore
 
-# Apply override to all files in the directory
+# Linguist Overrides
 *.md linguist-detectable
+
 
 # Basic .gitattributes for a PowerShell repo.
 
@@ -139,12 +142,6 @@
 #
 # Note that binary is a macro for -text -diff.
 ######################################################################
-
-# Auto detect
-##   Handle line endings automatically for files detected as
-##   text and leave all files detected as binary untouched.
-##   This will handle all files NOT defined below.
-*                 text=auto
 
 # Source code
 *.bash            text eol=lf
