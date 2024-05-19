@@ -8,6 +8,8 @@
 
 ## Configuration
 
+- Attempt to fix PostScript assignment in gitattributes ([1634d4e](https://github.com/noclocks/brand/commit/1634d4e778febfe1abdd123f6e5c4864d1db5e23))  - (Jimmy Briggs)
+- Ignore temp folders ([eae188f](https://github.com/noclocks/brand/commit/eae188f5d6b2c88a2ffa959e4e93970993973f4f))  - (Jimmy Briggs)
 - Remove devcontainer ([bf61f46](https://github.com/noclocks/brand/commit/bf61f466483a6cf77190df673836aa2e637c0d41))  - (Jimmy Briggs)
 - Add .gitignore ([98ccac9](https://github.com/noclocks/brand/commit/98ccac93b0f8b7d58b3e7f8d813ed2cce93d8244))  - (Jimmy Briggs)
 
@@ -22,6 +24,9 @@
 
 ## Features
 
+- Add "legal" branded logo wordmark variant ([e1e90ee](https://github.com/noclocks/brand/commit/e1e90ee60862b4fd4f4bac65acd9c8e9be18315c))  - (Jimmy Briggs)
+- Add GMB profile specific branded logos ([abec161](https://github.com/noclocks/brand/commit/abec161a139085e55ccbbd07dd19bb76db0887fe))  - (Jimmy Briggs)
+- Enhance linkedin social banner image ([64c3e72](https://github.com/noclocks/brand/commit/64c3e72eba8a6aa613bdd530c73e7c7260f461ee))  - (Jimmy Briggs)
 - Add screenshots ([d429a01](https://github.com/noclocks/brand/commit/d429a019daa9d757dab06021fcc8b566c0984079))  - (Jimmy Briggs)
 - Update images ([85396be](https://github.com/noclocks/brand/commit/85396be3d5b52c2e74be154067380abc289ab052))  - (Jimmy Briggs)
 - Add and rename various new brand assets ([0a5b544](https://github.com/noclocks/brand/commit/0a5b54491213f8e201a86159353048cca09288b4))  - (Jimmy Briggs)
