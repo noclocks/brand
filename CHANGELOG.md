@@ -24,6 +24,7 @@
 
 ## Features
 
+- Add new logos and images ([7ada295](https://github.com/noclocks/brand/commit/7ada295cbf8abf546f56ace83bceb0f5025ae718))  - (Jimmy Briggs)
 - Add "legal" branded logo wordmark variant ([e1e90ee](https://github.com/noclocks/brand/commit/e1e90ee60862b4fd4f4bac65acd9c8e9be18315c))  - (Jimmy Briggs)
 - Add GMB profile specific branded logos ([abec161](https://github.com/noclocks/brand/commit/abec161a139085e55ccbbd07dd19bb76db0887fe))  - (Jimmy Briggs)
 - Enhance linkedin social banner image ([64c3e72](https://github.com/noclocks/brand/commit/64c3e72eba8a6aa613bdd530c73e7c7260f461ee))  - (Jimmy Briggs)
